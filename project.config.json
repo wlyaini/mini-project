@@ -106,6 +106,12 @@
         {
           "name": "pages/health-assess/health-assessForm",
           "pathName": "pages/health-assess/health-assessForm",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/login/login",
+          "pathName": "pages/login/login",
           "scene": null
         }
       ]
