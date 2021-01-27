@@ -8,7 +8,8 @@
     "pages/health-risk/health-riskDetail",
     "pages/health-assess/health-assess",
     "component/pop/pop",
-    "pages/health-assess/health-assessForm"
+    "pages/health-assess/health-assessForm",
+    "pages/login/login"
   ],
   "window": {
     "backgroundTextStyle": "light",
