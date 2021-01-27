@@ -1,0 +1,146 @@
+<!--pages/health/health.wxml-->
+<view>
+  <view class="tag-head">
+    <navigator url="/pages/health-risk/health-risk" hover-class="none">
+      <image style="width: 668rpx; height: 194rpx;" mode="aspectFill" src="../../images/risk.png"></image>
+    </navigator>
+    <view class="flex-box">
+      <button class="btn-report">
+        <image style="width: 40rpx; height: 43rpx; vertical-align:middle;" src="../../images/btn-assess.png"></image>
+        <text>评估报告</text>
+      </button>
+      <button class="btn-report">
+        <image style="width: 40rpx; height: 43rpx; vertical-align:middle;" src="../../images/btn-physical.png"></image>
+        <text>体检报告</text>
+      </button>
+    </view>
+  </view>
+  <view class="health-body">
+    <view class="h-title">
+      <text class="font-weight font30" style="padding-top: 10rpx; display: inline-block;">健康数据</text>
+      <button class="btn-circle" style="float: right;">
+        <image style="width: 40rpx; height: 43rpx; vertical-align:middle;" src="../../images/icon-device.png"></image>
+        <text>设备绑定</text>
+      </button>
+      <button class="btn-circle" style="float: right;">
+        <image style="width: 40rpx; height: 43rpx; vertical-align:middle;" src="../../images/icon-data.png"></image>
+        <text>数据分析</text>
+      </button>
+    </view>    
+    <view class="weui-panel">
+      <view class="weui-panel__bd">
+        <view class="weui-media-box weui-media-box_small-appmsg data-list">
+          <view class="weui-cells weui-cells_in-small-appmsg">
+              <navigator url="/pages/panel/panel" class="weui-cell weui-cell_example weui-cell_access" hover-class="weui-cell_active">
+                  <view class="weui-cell__hd"><image src="../../images/icon-bloodPressure.png" style="width: 60px;height: 60px;margin-right: 20rpx;vertical-align:middle;" /></view>
+                  <view class="weui-cell__bd">
+                    <view class="weui-media-box_text">
+                        <view class="weui-media-box__title weui-media-box__title_in-text">
+                          <text class="">血压</text>
+                          <text class="num">149/102</text>
+                          <text class="unit">mmhg</text> 
+                          </view>
+                        <view class="weui-media-box__desc">2021-01-21 11:21:23</view>
+                    </view>
+                  </view>
+                  <view class="weui-cell__ft weui-cell__ft_in-access">
+                    <text class="tag tag-orange">3级高</text>
+                  </view>
+              </navigator>
+          </view>
+          <view class="weui-cells weui-cells_in-small-appmsg">
+              <navigator url="/pages/panel/panel" class="weui-cell weui-cell_example weui-cell_access" hover-class="weui-cell_active">
+                  <view class="weui-cell__hd"><image src="../../images/icon-bloodSugar.png" style="width: 60px;height: 60px;margin-right: 20rpx;vertical-align:middle;" /></view>
+                  <view class="weui-cell__bd">
+                    <view class="weui-media-box_text">
+                        <view class="weui-media-box__title weui-media-box__title_in-text">
+                          <text class="">血糖</text>
+                          <text class="num">8.8</text>
+                          <text class="unit">mmol/L</text> 
+                          </view>
+                        <view class="weui-media-box__desc">2021-01-21 11:21:23</view>
+                    </view>
+                  </view>
+                  <view class="weui-cell__ft weui-cell__ft_in-access">
+                    <text class="tag tag-green">正常</text>
+                  </view>
+              </navigator>
+          </view>
+          <view class="weui-cells weui-cells_in-small-appmsg">
+              <navigator url="/pages/panel/panel" class="weui-cell weui-cell_example weui-cell_access" hover-class="weui-cell_active">
+                  <view class="weui-cell__hd"><image src="../../images/icon-bloodPressure.png    " style="width: 60px;height: 60px;margin-right: 20rpx;vertical-align:middle;" /></view>
+                  <view class="weui-cell__bd">
+                    <view class="weui-media-box_text">
+                        <view class="weui-media-box__title weui-media-box__title_in-text">
+                          <text class="">体重</text>
+                          <text class="num">60.5</text>
+                          <text class="unit">kg</text> 
+                          </view>
+                        <view class="weui-media-box__desc">2021-01-21 11:21:23</view>
+                    </view>
+                  </view>
+                  <view class="weui-cell__ft weui-cell__ft_in-access">
+                    <text class="tag tag-yellow">偏高</text>
+                  </view>
+              </navigator>
+          </view>
+          <view class="weui-cells weui-cells_in-small-appmsg">
+              <navigator url="/pages/panel/panel" class="weui-cell weui-cell_example weui-cell_access" hover-class="weui-cell_active">
+                  <view class="weui-cell__hd"><image src="../../images/icon-bloodPressure.png" style="width: 60px;height: 60px;margin-right: 20rpx;vertical-align:middle;" /></view>
+                  <view class="weui-cell__bd">
+                    <view class="weui-media-box_text">
+                        <view class="weui-media-box__title weui-media-box__title_in-text">
+                          <text class="">血压</text>
+                          <text class="num">149/102</text>
+                          <text class="unit">mmhg</text> 
+                          </view>
+                        <view class="weui-media-box__desc">2021-01-21 11:21:23</view>
+                    </view>
+                  </view>
+                  <view class="weui-cell__ft weui-cell__ft_in-access">
+                    <text class="tag tag-orange">3级高</text>
+                  </view>
+              </navigator>
+          </view>
+          <view class="weui-cells weui-cells_in-small-appmsg">
+              <navigator url="/pages/panel/panel" class="weui-cell weui-cell_example weui-cell_access" hover-class="weui-cell_active">
+                  <view class="weui-cell__hd"><image src="../../images/icon-bloodSugar.png" style="width: 60px;height: 60px;margin-right: 20rpx;vertical-align:middle;" /></view>
+                  <view class="weui-cell__bd">
+                    <view class="weui-media-box_text">
+                        <view class="weui-media-box__title weui-media-box__title_in-text">
+                          <text class="">血糖</text>
+                          <text class="num">8.8</text>
+                          <text class="unit">mmol/L</text> 
+                          </view>
+                        <view class="weui-media-box__desc">2021-01-21 11:21:23</view>
+                    </view>
+                  </view>
+                  <view class="weui-cell__ft weui-cell__ft_in-access">
+                    <text class="tag tag-green">正常</text>
+                  </view>
+              </navigator>
+          </view>
+          <view class="weui-cells weui-cells_in-small-appmsg">
+              <navigator url="/pages/panel/panel" class="weui-cell weui-cell_example weui-cell_access" hover-class="weui-cell_active">
+                  <view class="weui-cell__hd"><image src="../../images/icon-bloodPressure.png    " style="width: 60px;height: 60px;margin-right: 20rpx;vertical-align:middle;" /></view>
+                  <view class="weui-cell__bd">
+                    <view class="weui-media-box_text">
+                        <view class="weui-media-box__title weui-media-box__title_in-text">
+                          <text class="">体重</text>
+                          <text class="num">60.5</text>
+                          <text class="unit">kg</text> 
+                          </view>
+                        <view class="weui-media-box__desc">2021-01-21 11:21:23</view>
+                    </view>
+                  </view>
+                  <view class="weui-cell__ft weui-cell__ft_in-access">
+                    <text class="tag tag-yellow">偏高</text>
+                  </view>
+              </navigator>
+          </view>
+        </view>
+      </view>
+    </view>
+
+  </view>
+</view>

@@ -1,0 +1,46 @@
+<!--pages/health-risk/health-riskDetail.wxml-->
+<view class="bgWhite">
+  <view class="level-box">
+    <image src="/images/risk-lines.png" style="height: 20rpx;"></image>
+    <view class="weui-flex">
+      <view class="weui-flex__item text-center"><view class="msg">偏高</view></view>
+      <view class="weui-flex__item text-center"><view class="msg">偏低</view></view>
+      <view class="weui-flex__item text-center"><view class="msg">正常</view></view>
+    </view>
+  </view>
+</view>
+<view class="cont-wrap">
+  <!-- 标题 -->
+  <view class="mt30">
+    <text class="font-weight font30">肝功能检测</text>
+    <text class="text-gray" style="float: right;">*点击标签查看风险说明</text>
+  </view> 
+  <!-- 列表 -->
+  <view class="item-list">
+    <view class="risk-item bgRed" bindtap="showDialog">
+      <view class="names">
+        丙氨酸氨基转移酶
+      </view>
+      <view class="number">62.4</view>
+    </view>
+    <view class="risk-item bgOrange" bindtap="showDialog">
+      <view class="names">
+        总胆红素
+      </view>
+      <view class="number">1.2</view>
+    </view>
+    <!-- 标题 -->
+    <view class="mt30">
+      <text class="font-weight font30">乙肝两对半定型检测</text>
+      <text class="text-gray" style="float: right;">*点击标签查看风险说明</text>
+    </view>
+    <!-- 列表 -->
+    <view class="risk-item bgGreen" bindtap="showDialog">
+      <view class="names">
+        乙肝五项检测
+      </view>
+      <view class="number">阴性</view>
+    </view>
+    <pop id="dialog" title="标题" content="几个快递费攻击力" bind:cancelEvent="_cancelEvent"></pop>
+  </view>
+</view>

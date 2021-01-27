@@ -1,0 +1,4 @@
+/* pages/health-assess/health-assess.wxss */
+page{
+  background-color: #fff;
+}

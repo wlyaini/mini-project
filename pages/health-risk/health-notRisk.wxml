@@ -1,0 +1,10 @@
+<!--pages/health-risk/health-notRisk.wxml-->
+<view>
+  <view class="no-cont text-center">
+    <image style="width: 142rpx; height: 141rpx;" mode="aspectFill" src="../../images//icon-noRisk.png"></image>
+    <view class="no-msg">为了深入了解你的身体状况，我们将通过多个维度的评测结果，精准预测你的健康风险。</view>
+    <navigator class="mt30" url="/pages/health-assess/health-assess">
+      <button class="btn-green" hover-class="none">去评估</button>
+    </navigator>
+  </view>
+</view>

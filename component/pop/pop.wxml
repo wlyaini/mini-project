@@ -1,0 +1,15 @@
+<!--component/pop.wxml-->
+<view class="pop-box" hidden="{{!isShow}}">
+  <view class="wx-mask"></view>
+  <view class="wx-dialog">
+    <view class="wx-dialog-title">
+      {{title}}
+      <image src="/images/icon-close.png" class="btn-close" catchtap="_cancelEvent"></image>
+    </view>
+    <view class="wx-dialog-cont">
+      {{content}}
+    </view>
+  </view>
+  {{innerText}}
+</view>
+<slot></slot>

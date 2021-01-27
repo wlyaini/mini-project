@@ -1,0 +1,22 @@
+{
+  "name": "mini-project",
+  "version": "1.0.0",
+  "description": "npm init time",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wlyaini/mini-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wlyaini/mini-project/issues"
+  },
+  "homepage": "https://github.com/wlyaini/mini-project#readme",
+  "dependencies": {
+    "weui-miniprogram": "^1.0.7"
+  }
+}

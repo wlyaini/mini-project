@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "pop": "/component/pop/pop"
+  },
+  
+  "navigationBarTitleText": "健康风险"
+}

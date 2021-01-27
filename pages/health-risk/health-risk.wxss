@@ -1,0 +1,94 @@
+/* pages/health-risk/health-risk.wxss */
+page{
+  background-color: #535363;
+}
+.white-box{
+  background-color: #ffffff;
+  border-radius: 10rpx;
+  margin: 60rpx 30rpx 30rpx;
+  min-height: 200rpx;
+  position: relative;
+}
+.tag-head{
+  height: 22rpx; width: 194rpx;
+  position: absolute;
+  left: 50%;
+  top: -20rpx;
+  margin-left: -97rpx;
+}
+.gap-line{
+  position: relative;
+  height: 2rpx;
+  border-top: 1rpx dashed #dcddeb; 
+  border-bottom: 1rpx dashed #dcddeb; 
+  /* background-color: #dcddeb; */
+}
+.gap-line:before{
+  content: "";
+  position: absolute;
+  width: 20rpx;
+  height: 20rpx;
+  border-radius: 50%;
+  background-color: #535363;
+  left: -10rpx;
+  top: -10rpx;
+}
+.gap-line:after{
+  content: "";
+  position: absolute;
+  width: 20rpx;
+  height: 20rpx;
+  border-radius: 50%;
+  background-color: #535363;
+  right: -10rpx;
+  top: -10rpx;
+}
+.risk-box{
+  padding: 40rpx 20rpx 74rpx;
+}
+/* .level-box{
+  margin: 30rpx 0;
+}
+.level-box .msg{
+  text-align: center;
+  color: #1a1a1a;
+} */
+.risk-tags{
+  padding: 20rpx 0;
+}
+.risk-tags .redTag, .risk-tags .orangeTag, .risk-tags .yellowTag{
+  display: inline-block;
+  padding: 10rpx 20rpx;
+  color: #ffffff;
+  border-radius: 10rpx;
+  margin: 10rpx;
+  font-size: 24rpx;
+}
+.redTag{
+  background-color: #eb6868;
+}
+.orangeTag{
+  background-color: #f4a148;
+}
+.yellowTag{
+  background-color: #fcdc3e;
+}
+.weui-media-box_appmsg.doctor{
+  align-items: flex-start;
+}
+.doctor .weui-media-box__desc{
+  position: relative;
+}
+.doctor .weui-media-box__desc > image{
+  position: relative;
+  z-index: 1;
+}
+.doctor .message{
+  position: absolute;
+  width: 427rpx; height: 92rpx;
+  padding: 40rpx;
+  color: #ffffff;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}

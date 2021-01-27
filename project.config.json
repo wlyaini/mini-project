@@ -12,7 +12,7 @@
     "minified": true,
     "newFeature": false,
     "coverView": true,
-    "nodeModules": false,
+    "nodeModules": true,
     "autoAudits": false,
     "showShadowRootInWxmlPanel": true,
     "scopeDataCheck": false,
@@ -50,23 +50,65 @@
   "simulatorType": "wechat",
   "simulatorPluginLibVersion": {},
   "condition": {
-    "search": {
-      "list": []
-    },
-    "conversation": {
+    "plugin": {
       "list": []
     },
     "game": {
-      "list": []
-    },
-    "plugin": {
       "list": []
     },
     "gamePlugin": {
       "list": []
     },
     "miniprogram": {
-      "list": []
+      "list": [
+        {
+          "name": "pages/health-risk/health-notRisk",
+          "pathName": "pages/health-risk/health-notRisk",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/health-assess/health-assess",
+          "pathName": "pages/health-assess/health-assess",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/index/index",
+          "pathName": "pages/index/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/health/health",
+          "pathName": "pages/health/health",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/health-risk/health-risk",
+          "pathName": "pages/health-risk/health-risk",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/health-risk/health-riskDetail",
+          "pathName": "pages/health-risk/health-riskDetail",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "component/pop/pop",
+          "pathName": "component/pop/pop",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/health-assess/health-assessForm",
+          "pathName": "pages/health-assess/health-assessForm",
+          "scene": null
+        }
+      ]
     }
   }
 }

@@ -1,0 +1,9 @@
+/* pages/health-assess/health-assessForm.wxss */
+.text-head{
+  padding-left: 10rpx;
+  border-left: 4px solid #04c0af
+}
+.must-tag::after{
+  content: "*";
+  color: red;
+}

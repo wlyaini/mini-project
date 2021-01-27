@@ -1,0 +1,4 @@
+<!--pages/health-assess/health-assess.wxml-->
+<view class="text-center">
+  <image src="/images/health-guide.jpg"  mode="scaleToFill" style="width: 535rpx; height: 3124rpx;"></image>
+</view>

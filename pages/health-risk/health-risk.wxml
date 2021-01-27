@@ -1,0 +1,98 @@
+<!--pages/health-risk/health-risk.wxml-->
+<view>
+  <!-- 健康管理师 -->
+  
+  <view class="weui-media-box weui-media-box_appmsg doctor">
+    <view class="weui-media-box__hd weui-media-box__hd_in-appmsg" style="width: 100rpx; height: 100rpx;">
+        <image class="weui-media-box__thumb" src="/images/user-logo.png" />
+    </view>
+    <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+        <view class="weui-media-box__title text-white">马丁 <text class="font24">健康管理师</text></view>
+        <view class="weui-media-box__desc text-white">
+          <navigator url="/pages/health-assess/health-assess" hover-class="none">
+            <image src="/images/dialog-box.png" style="width: 507rpx; height: 172rpx;"></image>
+            <view class="message">
+              <text>为了深入了解你的身体状况，我们将通过多个维度的测评结果，精准预测你的健康风险。</text>
+              <image src="/images/arrow-r.png" style="width: 26rpx; height: 26rpx;"></image>
+            </view>
+          </navigator>
+        </view>
+    </view>
+  </view>
+  <view class="white-box">
+    <image src="/images/tag-head.png" class="tag-head"></image>
+    <!-- 风险标签 -->
+    <view class="risk-box">
+      <view>
+        <text class="font-weight font30">风险标签</text>
+        <!-- <text class="text-gray" style="float: right;">*点击标签查看风险说明</text> -->
+      </view> 
+      <view class="level-box">
+        <image src="/images/lines.png" style="height: 20rpx;"></image>
+        <view class="weui-flex">
+          <view class="weui-flex__item text-center"><view class="msg">偏高</view></view>
+          <view class="weui-flex__item text-center"><view class="msg">中危</view></view>
+          <view class="weui-flex__item text-center"><view class="msg">偏低</view></view>
+        </view>
+      </view>
+      <view class="risk-tags">
+        <text class="redTag">高血压</text>
+        <text class="redTag">肥胖症</text>
+        <text class="redTag">乙肝五项偏高</text>
+        <text class="orangeTag">脑卒中</text>
+        <text class="orangeTag">血脂异常</text>
+        <text class="orangeTag">代谢综合症</text>
+        <text class="yellowTag">血脂异常</text>
+        <text class="yellowTag">乳腺癌</text>
+        <text class="yellowTag">睡眠呼吸短暂综合症</text>
+        <text class="yellowTag">总胆红素偏低</text>
+      </view>
+    </view>
+    <!-- 分割线 -->
+    <view class="gap-line"></view>
+    <!-- 体检指标风险 -->
+    <view class="risk-box">
+      <view>
+        <text class="font-weight font30">体检指标风险</text>
+        <text class="text-gray" style="float: right;">*点击标签查看风险说明</text>
+      </view> 
+      <!--风险内容 -->
+      <view>
+        <view class="weui-flex level-box">
+          <view class="weui-flex__item text-center" bindtap="pageToRiskDetail">
+            <image src="/images/symptom1.png" style="width: 124rpx; height: 124rpx;"></image>
+            <view class="msg">正常</view>
+          </view>
+          <view class="weui-flex__item text-center">
+            <image src="/images/symptom2.png" style="width: 124rpx; height: 124rpx;"></image>
+            <view class="msg">异常三项</view>
+          </view>
+          <view class="weui-flex__item text-center">
+            <image src="/images/symptom3.png" style="width: 124rpx; height: 124rpx;"></image>
+            <view class="msg">正常</view>
+          </view>
+        </view>
+        <view class="weui-flex level-box">
+          <view class="weui-flex__item text-center">
+            <image src="/images/symptom4.png" style="width: 124rpx; height: 124rpx;"></image>
+            <view class="msg">异常一项</view>
+          </view>
+          <view class="weui-flex__item text-center">
+            <image src="/images/symptom5.png" style="width: 124rpx; height: 124rpx;"></image>
+            <view class="msg">异常三项</view>
+          </view>
+          <view class="weui-flex__item text-center">
+            <image src="/images/symptom6.png" style="width: 124rpx; height: 124rpx;"></image>
+            <view class="msg">异常一箱</view>
+          </view>
+        </view>
+      </view>
+      <!-- 无内容 -->
+      <view class="no-cont text-center">
+        <image style="width: 133rpx; height: 143rpx;" mode="aspectFill" src="../../images/no-cont.png"></image>
+        <view class="no-msg">暂无评估报告</view>
+      </view>
+    </view>
+  </view>
+</view>
+ 

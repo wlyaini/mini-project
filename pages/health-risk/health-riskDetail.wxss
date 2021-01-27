@@ -1,0 +1,47 @@
+/* pages/health-risk/health-riskDetail.wxss */
+.risk-item{
+  border-radius: 10rpx;
+  background-color: #fff;
+  margin: 20rpx 0;
+  position: relative;
+  padding-right: 160rpx;
+}
+.risk-item .names{
+  padding: 0 30rpx;
+  height: 138rpx;
+  line-height: 138rpx;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.risk-item .number{
+  height: 138rpx;
+  line-height: 138rpx;
+  width: 160rpx;
+  position: absolute;
+  right: 0;
+  top: 0;
+  text-align: center;
+  color: #fff;
+  font-size: 36rpx;
+  font-family: Impact;
+  border-radius: 0 10rpx 10rpx 0;
+}
+.bgRed{
+  border-left: 17rpx solid #eb6868;
+}
+.bgRed .number{
+  background-color: #eb6868;
+}
+.bgOrange{
+  border-left: 17rpx solid #f4a148;
+}
+.bgOrange .number{
+  background-color: #f4a148;
+}
+.bgGreen{
+  border-left: 17rpx solid #04c0af;
+}
+.bgGreen .number{
+  background-color: #04c0af;
+}
