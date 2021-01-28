@@ -1,7 +1,7 @@
 <!--pages/health-assess/health-assessForm.wxml-->
 <view class="">
   <view class="bgWhite cont-wrap">
-    <text class="text-gray">第一部222分</text>
+    <text class="text-gray">第一部222333分</text>
     <text class="font-weight" style="margin-left: 20rpx;">个人基本信息</text>
   </view>
   <view class="cont-wrap">
