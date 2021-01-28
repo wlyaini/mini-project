@@ -1,9 +1,26 @@
 /* pages/health-assess/health-assessForm.wxss */
 .text-head{
   padding-left: 10rpx;
-  border-left: 4px solid #04c0af
+  border-left: 4px solid #04c0af;
+  margin-bottom: 20rpx;
 }
 .must-tag::after{
   content: "*";
   color: red;
+}
+.input-box{
+  border: 1px solid #ededed;
+  padding: 20rpx;
+}
+
+.radio-group {
+}
+.radio {
+  display: block;
+  padding: 5px;
+}
+.fixBottom{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
