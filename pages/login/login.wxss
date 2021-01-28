@@ -1,1 +1,104 @@
 /* pages/login.wxss */
+.loginMain{
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+  background: #fff;
+}
+image{
+  width: 100%;
+  height: 221.5px;
+}
+.formContent{
+  width: 80%;
+  height: 280px;
+  background: #FFF;
+  border-radius: 8px;
+  position: absolute;
+  top: 195px;
+  left: 50%;
+  margin-left: -40%;
+  box-shadow: 0px 0px 10px #DDD;
+}
+.formContent-title{
+  font-size: 19px;
+  color: #04c0af;
+  margin-top: 23px;
+  display: block;
+  text-align: center;
+}
+.man-form-infor{
+  padding-left: 18px;
+  margin-top: 40px;
+}
+.man-form-infor input{
+  width: 200px;
+  padding-left: 5px;
+  font-size: 16px;
+}
+.man-form-infor image{
+  width: 17px;
+  height: 21px;
+  float: left;
+  margin-right: 10px;
+}
+.mobile,.vcode{
+  position: relative;
+  height: 30px;
+}
+.vcode{
+  margin-top: 35px;
+  position: relative;
+}
+.vcode button{
+  width: 62px !important;
+  height: 27px;
+  line-height: 27px !important;
+  font-size: 13px;
+  background: #04c0af;
+  color:#fff;
+  position: absolute;
+  right: 20px;
+  top: 0px;
+  padding:0px;
+}
+
+.lines::after{
+  content: "";
+  position: absolute;
+  top: -50%;
+  bottom: -50%;
+  left: -48%;
+  right: -50%;
+  width: 190%;
+  height: 200%;
+  -webkit-transform: scale(0.5);
+  transform: scale(0.5);
+  border-bottom: solid 1px #e6e6e6;
+  box-sizing:border-box;
+}
+.submit-form-info button{
+  width: 90% !important;
+  height: 45px;
+  font-size: 19px;
+  color: #fff;
+  background-color:#04c0af;
+  border-radius: 25px;
+}
+.submit-form-info{
+  width: 100%;
+  position: absolute;
+  bottom: -23px;
+}
+.agreement{
+  width: 100%;
+  position: absolute;
+  bottom: 60px;
+  color: #a9a9a9;
+  font-size: 10px;
+  text-align: center;
+}
+.agreement .pact{
+  display: inline;
+  color:#04c0af !important;
+}

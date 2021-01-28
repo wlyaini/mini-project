@@ -1,2 +1,23 @@
 <!--pages/login.wxml-->
-<text>登录页</text>
+<view class="loginMain" module>
+  <image src="../../images/login.png" alt=""></image>
+  <view class="formContent">
+    <text class="formContent-title font-weight">企业健康管理</text>
+    <view class="man-form-infor">
+      <view class="mobile lines">
+        <image src="../../images/mobile.png"></image>
+        <input name="mobile" placeholder="请输入手机号码"></input>
+      </view>
+      <view class="vcode lines">
+        <image src="../../images/vcode.png"></image>
+        <input name="vcode" placeholder="请输入验证码"></input>
+        <button>获取</button>
+      </view>
+    </view>
+    <view class='submit-form-info'>
+      <button form-type='submit'>验证</button>
+    </view>
+  </view>
+  <view class="agreement">登录即视为同意<navigator class='pact'>《泰康养老健康管理平台使用授权说明》</navigator></view>
+
+</view>

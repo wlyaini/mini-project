@@ -1,6 +1,6 @@
 {
   "pages": [
-    "pages/health/health",
+    "pages/health-assess/health/health",
     "pages/index/index",
     "pages/my/my",
     "pages/health-risk/health-notRisk",
@@ -31,7 +31,7 @@
         "text": "首页"
       },
       {
-        "pagePath": "pages/health/health",
+        "pagePath": "pages/health-assess/health/health",
         "iconPath": "images/icon-my.png",
         "selectedIconPath": "images/icon-my-selected.png",
         "text": "健康档案"
