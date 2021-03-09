@@ -51,6 +51,7 @@
     </form>
   </view>
   <view class="fixBottom">
-    <button type='primary' form-type="submit" style="width: 100%;">保存</button>
+    <button type='primary' class="handleSave" form-type="submit" style="width: 100%;">保存</button>
   </view>
+  <mp-toptips msg="{{error}}" type="error" show="{{error}}"></mp-toptips>
 </view>

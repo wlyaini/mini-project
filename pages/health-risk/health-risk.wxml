@@ -9,7 +9,7 @@
     <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
         <view class="weui-media-box__title text-white">马丁 <text class="font24">健康管理师</text></view>
         <view class="weui-media-box__desc text-white">
-          <navigator url="/pages/health-assess/health-assess" hover-class="none">
+          <navigator url="/pages/health-assess/health-assessForm" hover-class="none">
             <image src="/images/dialog-box.png" style="width: 507rpx; height: 172rpx;"></image>
             <view class="message">
               <text>为了深入了解你的身体状况，我们将通过多个维度的测评结果，精准预测你的健康风险。</text>

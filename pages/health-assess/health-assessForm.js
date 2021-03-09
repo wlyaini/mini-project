@@ -22,6 +22,7 @@ Page({
     ],
 
     // demo end
+    error: ''
   },
   //性别选择
   radioChange: function (e) {
@@ -43,6 +44,9 @@ Page({
   postChange: function(e) {
     console.log('工作岗位发生change事件，携带value值为：', e.detail.value);
   },
+  handleSave() {
+    console.log("43545");
+  },
   /**
    * 生命周期函数--监听页面加载
    */
@@ -61,7 +65,9 @@ Page({
    * 生命周期函数--监听页面显示
    */
   onShow: function () {
-
+    this.setData({
+      error: '这是一个错误提示'
+    })
   },
 
   /**

@@ -1,0 +1,52 @@
+<!-- pages/mine/mine.wxml -->
+<view>
+  <view class="userHeader">
+    <view class="weui-cell">
+      <view class="head-pic">
+        <image src="/images/user-logo.png" style="width: 50px; height: 50px; display: block" />
+      </view>
+      <view class="text-white">
+        <view>
+          <view style="position: absolute; top: 30rpx; right: 40rpx;">
+            <image src="/images/icon-msg.png" style="width: 40rpx; height: 32rpx;" />
+            <mp-badge style="" ext-class="icon-badge"/>
+          </view>
+          <text class="font-weight" style="margin-right: 10px;">马大腾</text>
+          <text class="iconfont iconkecheng" bindtap="pageTo"></text>
+        </view>
+        <view style="font-size: 13px;">深圳市法本信息技术股份有限公司</view>
+      </view>
+    </view>
+    <!-- <mp-cells>
+      <mp-cell style="background-color: red;">
+        <view slot="title" style="position: relative;margin-right: 10px;">
+          <image src="/images/user-logo.png" style="width: 50px; height: 50px; display: block" />
+        </view>
+        <view>联系人名称</view>
+        <view style="font-size: 13px;color: #888888;">摘要信息</view>
+      </mp-cell>
+    </mp-cells> -->
+  </view>
+  <mp-cells>
+    <mp-cell link hover data-url="/pages/health-risk/health-risk" bindtap="mpSwitch" value="我的农场奖励" footer="×200">
+      <text slot="icon" class="iconfont iconkecheng icon-style"></text>
+    </mp-cell>
+    <mp-cell link hover url="/pages/health-risk/health-risk" bindtap="mpSwitch" value="我的课程">
+      <text slot="icon" class="iconfont iconunlock icon-style"></text>
+    </mp-cell>
+    <mp-cell link hover url="/pages/health-risk/health-risk" bindtap="mpSwitch" value="我的活动">
+      <text slot="icon" class="iconfont iconmobile-phone icon-style"></text>
+    </mp-cell>
+    <mp-cell link hover url="/pages/health-risk/health-risk" bindtap="mpSwitch" value="我的地址">
+      <text slot="icon" class="iconfont iconmobile-phone icon-style"></text>
+    </mp-cell>
+  </mp-cells>
+  <mp-cells>
+    <mp-cell link hover data-url="/pages/health-risk/health-risk" bindtap="mpSwitch" value="我的设备">
+      <text slot="icon" class="iconfont iconkecheng icon-style"></text>
+    </mp-cell>
+    <mp-cell link hover url="/pages/health-risk/health-risk" bindtap="mpSwitch" value="设置">
+      <text slot="icon" class="iconfont iconunlock icon-style"></text>
+    </mp-cell>
+  </mp-cells>
+</view>

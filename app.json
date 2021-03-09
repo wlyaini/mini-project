@@ -2,14 +2,15 @@
   "pages": [
     "pages/health/health",
     "pages/index/index",
-    "pages/my/my",
     "pages/health-risk/health-notRisk",
     "pages/health-risk/health-risk",
     "pages/health-risk/health-riskDetail",
     "pages/health-assess/health-assess",
     "component/pop/pop",
     "pages/health-assess/health-assessForm",
-    "pages/login/login"
+    "pages/login/login",
+    "pages/health-assess/assess-report",
+    "pages/mine/mine"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -37,7 +38,7 @@
         "text": "健康档案"
       },
       {
-        "pagePath": "pages/my/my",
+        "pagePath": "pages/mine/mine",
         "iconPath": "images/icon-my.png",
         "selectedIconPath": "images/icon-my-selected.png",
         "text": "我的"

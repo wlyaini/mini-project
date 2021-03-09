@@ -1,13 +1,23 @@
-// pages/my/my.js
+// pages/mine/mine.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+    my: "我的页面"
   },
-
+  mpSwitch(e) {
+    console.log(e);
+    wx.navigateTo({
+      url: e.currentTarget.dataset.url,
+    })
+  },
+  pageTo() {
+    wx.navigateTo({
+      url: '/pages/health-assess/health-assessForm',
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */
@@ -62,17 +72,5 @@ Page({
    */
   onShareAppMessage: function () {
 
-  }
-})
-Component({
-  pageLifetimes: {
-    show() {
-      if (typeof this.getTabBar === 'function' &&
-        this.getTabBar()) {
-        this.getTabBar().setData({
-          selected: 2
-        })
-      }
-    }
   }
 })

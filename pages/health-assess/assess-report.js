@@ -1,11 +1,11 @@
-// pages/health-risk/health-notRisk.js
+// pages/health-assess/assess-report.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    my: '123'
+
   },
 
   /**

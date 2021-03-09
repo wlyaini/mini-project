@@ -21,9 +21,8 @@
     "checkSiteMap": true,
     "uploadWithSourceMap": true,
     "compileHotReLoad": false,
-    "useMultiFrameRuntime": true,
+    "useMultiFrameRuntime": false,
     "useApiHook": true,
-    "useApiHostProcess": true,
     "babelSetting": {
       "ignore": [],
       "disablePlugins": [],
@@ -63,7 +62,7 @@
     "miniprogram": {
       "list": [
         {
-          "name": "pages/health-risk/health-notRisk",
+          "name": "health-notRisk",
           "pathName": "pages/health-risk/health-notRisk",
           "query": "",
           "scene": null
@@ -113,6 +112,19 @@
         {
           "name": "pages/login/login",
           "pathName": "pages/login/login",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/health-assess/assess-report",
+          "pathName": "pages/health-assess/assess-report",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "mine",
+          "pathName": "pages/mine/mine",
+          "query": "",
           "scene": null
         }
       ]
